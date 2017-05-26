@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Empress.cpp" />
+    <ClCompile Include="dx9.cpp" />
+    <ClCompile Include="dx11.cpp" />
+    <ClCompile Include="opengl.cpp" />
+    <ClCompile Include="imports.cpp" />
+    <ClCompile Include="sensors.cpp" />
+    <ClCompile Include="WP8\wp8.cpp">
+      <Filter>WP8</Filter>
+    </ClCompile>
+    <ClCompile Include="Android\com_nnn_lib.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="c_AudioManager.cpp" />
+    <ClCompile Include="c_EndScreen.cpp" />
+    <ClCompile Include="c_GameSave.cpp" />
+    <ClCompile Include="c_GameScreen.cpp" />
+    <ClCompile Include="c_GameSession.cpp" />
+    <ClCompile Include="c_HistoryScreen.cpp" />
+    <ClCompile Include="c_InputManager.cpp" />
+    <ClCompile Include="c_IntroScreen.cpp" />
+    <ClCompile Include="c_MainScreen.cpp" />
+    <ClCompile Include="c_SaveScreen.cpp" />
+    <ClCompile Include="c_ScreenManager.cpp" />
+    <ClCompile Include="c_SettingsScreen.cpp" />
+    <ClCompile Include="c_TextManager.cpp" />
+    <ClCompile Include="c_TitleScreen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="WP8">
+      <UniqueIdentifier>{c7f20908-7ae9-40a4-ba7e-d59d56b1a46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{93e595e1-2a39-4ef5-b14c-98841500671d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Tiles">
+      <UniqueIdentifier>{cff64db8-6ea8-450d-aa76-ed8aefbdb237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{bf06c76d-cf67-4c5c-8a5c-8c6a5da6ebb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Android">
+      <UniqueIdentifier>{6b4eb736-1818-45d6-884e-df27b57d4ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AndroidApk">
+      <UniqueIdentifier>{fb0ceb6f-505c-4278-8cba-73fd9928afd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AndroidApk\src">
+      <UniqueIdentifier>{257e2c36-bbd7-4136-832b-daf2bedf44c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AndroidApk\src\com">
+      <UniqueIdentifier>{ab0cbb94-9e1b-4df6-9456-953ec3110d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AndroidApk\src\com\nnn">
+      <UniqueIdentifier>{ecffae8b-7c1c-4408-9d2d-c911fc4af418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AndroidApk\src\com\nnn\Empress">
+      <UniqueIdentifier>{a5a3bd15-cb9c-4cfd-a1e4-12cec0fda960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AndroidApk\src\com\nnn\lib">
+      <UniqueIdentifier>{7e646d45-e903-4611-8a83-b8203776dcbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Empress.h" />
+    <ClInclude Include="Android\com_nnn_lib.h">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="c_AudioManager.h" />
+    <ClInclude Include="c_EndScreen.h" />
+    <ClInclude Include="c_GameSave.h" />
+    <ClInclude Include="c_GameScreen.h" />
+    <ClInclude Include="c_GameSession.h" />
+    <ClInclude Include="c_HistoryScreen.h" />
+    <ClInclude Include="c_InputManager.h" />
+    <ClInclude Include="c_IntroScreen.h" />
+    <ClInclude Include="c_MainScreen.h" />
+    <ClInclude Include="c_SaveScreen.h" />
+    <ClInclude Include="c_ScreenManager.h" />
+    <ClInclude Include="c_SettingsScreen.h" />
+    <ClInclude Include="c_TextManager.h" />
+    <ClInclude Include="c_TitleScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileSmall.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+    <Image Include="Assets\AlignmentGrid.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\ApplicationIcon.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Files\nnnEngine.whp">
+      <Filter>Files</Filter>
+    </None>
+    <None Include="AndroidApk\src\com\nnn\Empress\EMPRESSActivity.java">
+      <Filter>AndroidApk\src\com\nnn\Empress</Filter>
+    </None>
+    <None Include="AndroidApk\src\com\nnn\lib\c_Input.java">
+      <Filter>AndroidApk\src\com\nnn\lib</Filter>
+    </None>
+    <None Include="AndroidApk\src\com\nnn\lib\nnnActivity.java">
+      <Filter>AndroidApk\src\com\nnn\lib</Filter>
+    </None>
+    <None Include="AndroidApk\src\com\nnn\lib\nnnLib.java">
+      <Filter>AndroidApk\src\com\nnn\lib</Filter>
+    </None>
+    <None Include="AndroidApk\src\com\nnn\lib\nnnRenderer.java">
+      <Filter>AndroidApk\src\com\nnn\lib</Filter>
+    </None>
+    <None Include="AndroidApk\src\com\nnn\lib\nnnView.java">
+      <Filter>AndroidApk\src\com\nnn\lib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
